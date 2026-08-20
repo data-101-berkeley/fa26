@@ -8,30 +8,34 @@ seo:
   name: Berkeley Class Site
 ---
 
-# UC Berkeley Class Site Template
+# Data 101 (CS 187): Data Engineering 💾
 
-A template for static UC Berkeley class websites (with a focus on EECS/CS/DS courses) built with [Jekyll](https://jekyllrb.com/), [Just the Docs](jtd), and [Just the Class](https://kevinl.info/just-the-class/).
+{: .mb-2 }
 
-- [announcements](announcements),
-- a [course calendar](calendar),
-- a [staff](staff) page,
-- and a weekly [schedule](schedule).
-**Ready to get started? See our [documentation]({% link docs/index.md %}).**
+## UC Berkeley, Fall 2026
+{: .mb-2 .fs-6 .text-grey-dk-000 }
 
-## Features
+[Ed]({{site.course.edstem}}){:target="\_blank" .btn .btn-ed .mr-1 }
+<!-- [Lecture Recordings]({{site.course.videos}}){:target="\_blank" .btn .btn-bcourses .mr-1 } -->
+<!-- [Gradescope]({{site.course.gradescope}}){:target="\_blank" .btn .btn-gradescope .mr-1 } -->
+<!-- [Lecture Recordings](https://bcourses.berkeley.edu/courses/1547305/external_tools/90481){:target="\_blank" .btn .btn-bcourses} -->
+<!-- [Additional Extensions]({{site.course.additional_extensions}}){:target="\_blank" .btn .btn-extensions .mr-1 } -->
+[Office Hours Queue]({{site.course.office_hours}}){: .btn .btn-officehours}
+[Jump to Current Week](https://data101.org/fa25/#week-1){: .btn .btn-currweek}
 
-- **Fast development**: Focus on writing course content in Markdown that is automatically compiled into HTML/CSS. Run a single terminal command to build and preview the website. Any changes you make trigger autoregeneration of relevant website files and you just need to refresh to see them.
-- **Accessible by default**: We have [continuous integration]({% link docs/continuous-integration.md %}) workflows that ensure that the entire website is accessible to users with disabilities (whether in light or dark mode)
-- **Reasonable defaults and boilerplate**: Using this template comes with all the commonly used pages needed in a course website, such as home page, [syllabus]({% link syllabus.md %}), [course schedule](% link schedule.md %), assignment pages, [staff page]({% link staff.md %}), [resources]({% link resources.md %}), and calendar (both [static]({% link calendar.md %}) and [dynamic]({% link calendar_dynamic.md %}) if your course uses Google Calendar).
-- **UI components and styling out of the box**: This template comes with all the UI components, styling, and colors from [Just the Docs][jtd] as well as [UC Berkeley branding](https://brand.berkeley.edu/).
-- **Instant, full text search**
-- **Light and dark mode**
+<div class="role flex">
+  {% assign instructors = site.staffers | where: 'role', 'InstructorHome' %}
+  {% for staffer in instructors %}
+    {{ staffer }}
+  {% endfor %}
+</div>
 
-## Examples
+## Announcements
 
-- [Data 6](https://data6.org/fa25)
-- [Data 8](https://www.data8.org/fa25)
-- [Data 100](https://ds100.org/fa25)
-- [Data 101](https://data101.org/fa25)
+{% include announcements-navigation.html %}
 
-[jtd]: https://just-the-docs.com/
+## Schedule
+
+<div>
+{%- include schedule.html -%}
+</div>

@@ -1,12 +1,8 @@
-# Berkeley Class Site
+# DATA 101 Fall 2026 Website
 
-[![Pages Deployment](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/jekyll.yml/badge.svg)](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/jekyll.yml) •
-[![a11y specs](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/rspec.yml/badge.svg)](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/rspec.yml)
+[![Deploy Jekyll site to Pages](https://github.com/data-101-berkeley/fa26/actions/workflows/jekyll.yml/badge.svg)](https://github.com/data-101-berkeley/fa26/actions/workflows/jekyll.yml) [![Run all page tests](https://github.com/data-101-berkeley/fa26/actions/workflows/rspec.yml/badge.svg)](https://github.com/data-101-berkeley/fa26/actions/workflows/rspec.yml)
 
 A template for UC Berkeley class websites (with a focus on EECS/CS/DS courses).
-
-## Contact
-Please [open an issue](https://github.com/berkeley-cdss/berkeley-class-site/issues) or join a [discussion](https://github.com/berkeley-cdss/berkeley-class-site/discussions) to let us know your thoughts! You may also email silascs AT berkeley DOT edu.
 
 ## Installation
 
