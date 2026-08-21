@@ -84,5 +84,6 @@ div.site-header {
 }
 
 .btn-currweek {
-  @include btn-color($block-text-color !important, #800a49);
+  background-color: #800a49 !important;
+  color: #ffffff !important; /* adjust text color as needed */
 }
