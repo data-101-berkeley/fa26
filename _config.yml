@@ -25,7 +25,7 @@ aux_links:
 
 # nav external links show up in left hand navigation
 nav_external_links:
-  - title: Course FAQ
+  - title: ⚙️ Course FAQ
     url: https://data101.org/faqs/fa26
     hide_icon: true
   - title: 📖 Course Notes

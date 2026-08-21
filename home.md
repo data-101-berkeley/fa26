@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Welcome!
-nav_exclude: true
+title: 🏠 Home
 permalink: /
+nav_order: 1
 seo:
   type: Course
-  name: Berkeley Class Site
+  name: Data 101
 ---
 
 # Data 101 (CS 187): Data Engineering 💾
