@@ -13,11 +13,11 @@
 # link overrides the default link to the quiz page from the collection if 
 # you provided a slug or provides an external link
 quizzes:
-  - title : "Academic and Administrative Holiday"
-    nonumber: true
-  - title: "Quiz 1 Scope" # 1
-    link: https://edstem.org/
-  - title: "" # 2
-  - title: "" # 3
-  - skip: true
-  - skip: true
+  # - title : "Academic and Administrative Holiday"
+  #   nonumber: true
+  # - title: "Quiz 1 Scope" # 1
+  #   link: https://edstem.org/
+  # - title: "" # 2
+  # - title: "" # 3
+  # - skip: true
+  # - skip: true

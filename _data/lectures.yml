@@ -20,30 +20,49 @@
 
 lectures:
   - slug: intro
-    readings:
-      - title: Introduction
-        link: https://inferentialthinking.com/chapters/01/what-is-data-science/index.html
-  - slug: 2
-    readings: 
-      - title: Causality and Experiments
-        link: https://inferentialthinking.com/chapters/02/causality-and-experiments/index.html
-  - slug: "03"
-    readings:
-      - links: 
-          - text: "Programming in Python"
-            url: "https://inferentialthinking.com/chapters/03/programming-in-python/"
-          - text: "Data Types"
-            url: "https://inferentialthinking.com/chapters/04/data-types/"
-  - slug: "04"
-  - slug: "05"
-  - slug: "06"
-  - slug: "07"
-  # - skip: true
-  - slug: "08"
-  - title: "No Lecture"
+    # readings: 
+    #   - title: Causality and Experiments
+    #     link: https://inferentialthinking.com/chapters/02/causality-and-experiments/index.html
+  - slug: sql
+    # readings:
+    #   - links: 
+    #       - text: "Programming in Python"
+    #         url: "https://inferentialthinking.com/chapters/03/programming-in-python/"
+    #       - text: "Data Types"
+    #         url: "https://inferentialthinking.com/chapters/04/data-types/"
+  - slug: relational-model
+  - slug: CTEs-views-subqueries
+  - slug: DML-DDL
+  - slug: performance-index-selection
+  - slug: optimizing-1
+  - slug: optimizing-2
+  - slug: data-modeling-1
+  - slug: data-prep-1
+  - slug: data-prep-2
+  - slug: data-prep-3
+  - slug: data-prep-4
+  - slug: data-modeling-2
+  - slug: semistructured-data
+  - slug: mongoDB-1
+  - slug: mongoDB-2
+  - slug: sampling
+  - slug: parallel-dist-computing
+  - slug: data-ops
+  - slug: transactions
+  - slug: olap
+  - slug: spreadsheets
+  - slug: graph-db
+  - slug: cloud-computing
+  - slug: tba
+  - title: <b>Holiday - No Lecture</b>
     nonumber: true
-    # link: "https://registrar.berkeley.edu/wp-content/uploads/UCB_AcademicCalendar_2025-26.pdf"
-  - slug: "09"
-  - slug: "10"
-  - slug: "11"
-
+  - slug: tba
+  - slug: tba
+  - title: <b>RRR Week</b>
+    nonumber: true
+  - title: <b>RRR Week</b>
+    nonumber: true
+  - title: <b>Finals Week</b>
+    nonumber: true
+  - title: <b>Finals Week</b>
+    nonumber: true

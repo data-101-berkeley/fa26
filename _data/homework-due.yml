@@ -3,7 +3,7 @@
 # see DS-100/sp26 for an example of what this looks like.
 # they also implemented lab-due functionality
 homework-due:
-  - skip: true
-  - title: "HW 1"
-  - title: "Homework 2"
-  - title: "Homework 3"
+  # - skip: true
+  # - title: "HW 1"
+  # - title: "Homework 2"
+  # - title: "Homework 3"

@@ -43,6 +43,10 @@
   {%- assign extra_day_epoch = item.date | date: '%s' | plus: 0 -%}
   {%- assign valid_dates = valid_dates | push: extra_day_epoch -%}
 {%- endfor -%}
+{%- for item in site.data.homework.homework -%}
+  {%- assign extra_day_epoch = item.date | date: '%s' | plus: 0 -%}
+  {%- assign valid_dates = valid_dates | push: extra_day_epoch -%}
+{%- endfor -%}
 
 {%- comment -%}
   Sort days and group into weeks.
@@ -57,7 +61,6 @@
 {%- assign lecture_index = 0 -%}
 {%- assign discussion_index = 0 -%}
 {%- assign lab_index = 0 -%}
-{%- assign homework_index = 0 -%}
 {%- assign homework_due_index = 0 -%}
 {%- assign quiz_index = 0 -%}
 {%- assign lecture_number = site.data.syllabus.starting_lecture_number | default: 1 -%}
@@ -328,10 +331,10 @@
             {%- endif -%}
 
             {%- comment -%} --- HOMEWORK LOGIC --- {%- endcomment -%}
-            {%- if site.data.syllabus.hw_days contains day_of_week -%}
-                {%- assign hw_entry = site.data.homework.homework[homework_index] -%}
-                
-                {%- if hw_entry -%}
+            {%- assign current_date = day | date: "%Y-%m-%d" -%}
+            {%- for hw_entry in site.data.homework.homework -%}
+                {%- assign hw_date = hw_entry.date | date: "%Y-%m-%d" -%}
+                {%- if hw_date == current_date -%}
                     {%- unless hw_entry.skip -%}
                         <div class="syllabus-item" style="margin-bottom: 4px;">
                             {%- assign hw_obj = nil -%}
@@ -360,7 +363,7 @@
 
                             {%- comment -%} 3. RENDER LABEL (Unless nonumber is true) {%- endcomment -%}
                             {%- unless hw_entry.nonumber -%}
-                                <strong class="label label-homework-released">Homework {{ homework_number }}</strong>
+                                <strong class="label label-homework">Homework {{ homework_number }}</strong>
                                 {%- assign homework_number = homework_number | plus: 1 -%}
                             {%- endunless -%}
 
@@ -372,11 +375,8 @@
                             {%- endif -%}
                         </div>
                     {%- endunless -%}
-
-                    {%- comment -%} 5. ALWAYS INCREMENT INDEX {%- endcomment -%}
-                    {%- assign homework_index = homework_index | plus: 1 -%}
                 {%- endif -%}
-            {%- endif -%}
+            {%- endfor -%}
 
             {%- comment -%} --- HOMEWORK DUE LOGIC --- {%- endcomment -%}
             {%- if site.data.syllabus.hw_due_days contains day_of_week -%}

@@ -8,16 +8,21 @@
 # one-off overrides like holidays or for placeholders; use the title field sparingly
 
 # nonumber supresses the label and numbering for the homework entry
-# skip: true will omit the homework from the schedule entirely
 
 # link overrides the default link to the homework page from the collection if 
 # you provided a slug or provides an external link
+
+# Note: Because there's so few homeworks and an irregular day of the week
+# I decided to include dates directly instead of relying on an implicit ordering
 homework:
-  - slug: hw01
-  - title: Homework 2
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-  - title: Homework 3
-  - skip: true
-  - title: Homework 4
-  - title: Homework 5
-  - title: Homework 6
+  - title: Homework 1 (due 9/16)
+    date: 2026-09-04
+    # link: 
+  - title: Homework 2 (due 9/30)
+    date: 2026-09-18
+  - title: Homework 3 (due 10/21)
+    date: 2026-10-05
+  - title: Homework 4 (due 11/11)
+    date: 2026-10-30
+  - title: Homework 5 (due 12/2)
+    date: 2026-11-20

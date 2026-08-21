@@ -13,10 +13,23 @@
 # link overrides the default link to the discussion page from the collection if 
 # you provided a slug or provides an external link
 discussions:
-  - title: Discussion 0
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-  - slug: disc01
-  - title: Discussion 2
   - skip: true
-  - title: Discussion 3
-  - title: Discussion 4
+  - title: SQL Review
+  - title: Relational Algebra, Subqueries, CTEs, Joins
+  - title: DML/DDL, Bits, Query Performance
+  - title: Query Performance
+  - title: Data Models, Data Prep
+  - title: Window Functions, Data Granularity
+  - title: No discussion 
+    nonumber: true
+  - title: Entity Resolution, ER Diagrams, Normalization
+  - title: Semistructured Data, MongoDB
+  - title: Sampling, MapReduce
+  - title: Parallel Processing, Data Ops
+  - title: Transactions
+  - title: TBA
+  - title: TBA
+  - title: <b>RRR Week</b>
+    nonumber: true
+  - title: <b>Finals Week</b>
+    nonumber: true
