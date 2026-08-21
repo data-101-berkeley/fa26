@@ -14,7 +14,7 @@ gradescope_course_id:
 bcourses_course_id: 1557891
 ed_course_id: 102212
 semester: fa26
-logo: data-101-logo.png
+logo: assets/images/data101.png
 class_archive_path: /
 
 # auxiliary links show up on the top right
@@ -147,7 +147,7 @@ defaults:
     values:
       layout: staffer
       height: 300
-      subpath: '/assets/images/'
+      subpath: '/assets/images/staff/'
       width: 300
   - scope:
       path: ''

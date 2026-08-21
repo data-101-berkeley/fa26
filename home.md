@@ -32,7 +32,7 @@ seo:
 
 ## Announcements
 
-{% include announcements-navigation.html %}
+{% include announcement-navigation.html %}
 
 ## Schedule
 
