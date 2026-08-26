@@ -67,7 +67,13 @@ There will be five (5) homework assignments released on Gradescope throughout th
 
 ### Exams
 
-Information about exams will be available soon. 
+This course has **three** exams:
+* Midterm I: Friday, Oct 2, 7:00-9:00 pm
+* Midterm II: Friday, Nov 9, 7:00-9:00 pm
+* Final exam: Friday, Dec 18, 8:00-11:00 am
+
+**Exams are offered in-person only.** It is your responsibility to ensure that you are not enrolled in another class that conflicts with any midterm or final exam time. 
+
 
 ### Office Hours
 
@@ -75,16 +81,17 @@ Office Hours are a great place to get help from course staff and to find study p
 * **TA/Tutor office hours**, held weekly in **Gateway B1040H**. Attend to get help with homework assignments, projects, or any other content-related questions.
 * **Instructor office hours**, held weekly in **Aditya’s office in Gateway** are for content-related questions, but also general course questions, data science advising, perspectives on academia/industry, or anything else you may be curious about! These are not intended for homework or project questions. 
 
-<!-- ## Grading
-Letter grades for the course will be based on your overall score in the class. Here is the grading scheme:
+## Grading
+Letter grades for the course will be based on your overall score in the class. 
+Here is the grading scheme:
 
 {: .table }
 | **Component** | **Weight<br/>(default)** | **Details** |
 | --------- |:---:|--- |
-| Projects | 40% |  (9% each typically) No drops; Project 0 worth 4%. see [Late Policy](#late-policy) |
-| Homework Assignments | 20% |  (3.6% each) 1 drop drops; see [Late Policy](#late-policy) |
-| Midterm | 15% |      |
-| Final Exam | 25% | Final is cumulative. | -->
+| Projects | 35% |  (8% each typically) No drops; Project 0 worth 3%. see [Late Policy](#late-policy) |
+| Homework Assignments | 15% |  (3% each) 1 drop drops; see [Late Policy](#late-policy) |
+| Midterms (2x) | 25% | (12.5% each) **NOTE: this is the first offering with two midterms**      |
+| Final Exam | 25% | Final is cumulative. | 
 
 
 <!--Letter grades will be based on a combination of absolute cutoffs and the distribution of overall scores. Towards the end of the term, we will make three guarantees: "An overall score of at least x will result in a grade of at least C-; at least y will result in at least B-; at least z will result in at least A-." The thresholds x, y, and z will depend on this term’s performance.
@@ -130,7 +137,7 @@ You are encouraged to discuss practice problems and lecture content with your fe
 
 * **StackOverflow, etc.** You should cite these sources, even if it's using small snippets of code (e.g., googling "postgres string matching" may lead you to some sample code that you copy and paste. Include the link to these online sources.
 
-* **AI**: Using AI to clarify concepts is acceptable, and doesn’t require citation. Even using AI to help debug is fine - and if so, please include a blurb on how you used AI upfront with each such prompt. Asking AI to solve the problem is prohibited. We want you to actually understand the underlying concepts and this involves some amount of struggle - so using AI mindlessly shortcuts learning. This will reflect not just in poor exam performance, but also in real life data engineering: you will be less capable of doing data engineering work because you are unable to both do it yourself, and also unable to partner with (future more capable) AIs to help you do it because you don’t know how to communicate intent and preferences, effectively steer and deal with ambiguity, as well as validate and verify AI (or other people’s) work.
+* **AI**: Using AI to clarify concepts is acceptable, and doesn’t require citation. Even using AI to help debug is fine - and if so, please include a blurb on how you used AI upfront with each such prompt. Asking AI to solve the problem is prohibited. We want you to actually understand the underlying concepts and this involves some amount of struggle - so using AI mindlessly shortcuts learning. This will reflect not just in poor exam performance, but also in real life data engineering: you will be less capable of doing data engineering work because you are unable to both do it yourself, and also unable to partner with (future more capable) AIs because you don’t know how to (1) communicate intent and preferences, (2) effectively steer and deal with ambiguity, as well as (3) validate and verify AI (or other people’s) work.
 
 
 
