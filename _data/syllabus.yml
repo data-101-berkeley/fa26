@@ -10,12 +10,15 @@ end_date: 2026-12-18
 # Any other days you want to appear on the calendar (e.g. for one-time events
 # like exams or bonus lectures) can be listed here. These appear in the second column.
 extra_days_col2:
-  # - date: 2026-02-11
-  #   title: "Midterm Exam, 7-9pm"
-  #   label: exam
-  # - date: 2026-02-16 # Academic and Administrative Holiday
-  #   title: "Academic and Administrative Holiday"
-  #   label: none
+  - date: 2026-10-02
+    title: "<b>Midterm I, 7-9pm</b>"
+    label: exam
+  - date: 2026-11-06
+    title: "<b>Midterm II, 7-9pm</b>"
+    label: exam
+  - date: 2026-12-18
+    title: "<b>Final Exam, 8-11am</b>"
+    label: exam
 
 # The dates used in extra_links_col3 below must already be included on the calendar 
 # Use this to provide extra links in the third (reading) column

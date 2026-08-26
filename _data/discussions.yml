@@ -31,5 +31,4 @@ discussions:
   - title: TBA
   - title: <b>RRR Week</b>
     nonumber: true
-  - title: <b>Finals Week</b>
-    nonumber: true
+  - skip: true

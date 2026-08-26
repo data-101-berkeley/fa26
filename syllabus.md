@@ -69,7 +69,7 @@ There will be five (5) homework assignments released on Gradescope throughout th
 
 This course has **three** exams:
 * Midterm I: Friday, Oct 2, 7:00-9:00 pm
-* Midterm II: Friday, Nov 9, 7:00-9:00 pm
+* Midterm II: Friday, Nov 6, 7:00-9:00 pm
 * Final exam: Friday, Dec 18, 8:00-11:00 am
 
 **Exams are offered in-person only.** It is your responsibility to ensure that you are not enrolled in another class that conflicts with any midterm or final exam time. 
