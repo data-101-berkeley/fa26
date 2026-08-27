@@ -12,23 +12,28 @@
 
 # link overrides the default link to the discussion page from the collection if 
 # you provided a slug or provides an external link
+# Each entry below corresponds to one discussion day (Friday), in order,
+# starting with the week of 8/24. Weeks without a discussion still need an
+# entry to keep the rest of the list aligned with the calendar.
 discussions:
-  - skip: true
-  - title: SQL Review
-  - title: Relational Algebra, Subqueries, CTEs, Joins
-  - title: DML/DDL, Bits, Query Performance
-  - title: Query Performance
-  - title: Data Models, Data Prep
-  - title: Window Functions, Data Granularity
-  - title: No discussion 
+  - skip: true # 8/28, first week of instruction
+  - title: SQL Review # 9/3-4
+  - title: Relational Algebra, Subqueries, CTEs, Joins # 9/10-11
+  - title: DML/DDL, Bits, Query Performance # 9/17-18
+  - title: Query Performance # 9/24-25
+  - title: <b>No Discussion - Midterm I</b> # 10/1-2
     nonumber: true
-  - title: Entity Resolution, ER Diagrams, Normalization
-  - title: Semistructured Data, MongoDB
-  - title: Sampling, MapReduce
-  - title: Parallel Processing, Data Ops
-  - title: Transactions
-  - title: TBA
-  - title: TBA
+  - title: Data Models, Data Prep # 10/8-9
+  - title: Window Functions, Data Granularity # 10/15-16
+  - title: Entity Resolution, ER Diagrams, Normalization # 10/22-23
+  - title: Semistructured Data, MongoDB # 10/29-30
+  - title: <b>No Discussion - Midterm II</b> # 11/5-6
+    nonumber: true
+  - title: Sampling, MapReduce # 11/12-13
+  - title: Parallel Processing, Data Ops # 11/19-20
+  - title: <b>No Discussion - Thanksgiving Break</b> # 11/26-27
+    nonumber: true
+  - title: Transactions, OLAP, Spreadsheets, and Graph DB # 12/3-4
   - title: <b>RRR Week</b>
     nonumber: true
-  - skip: true
+  - skip: true # finals week
