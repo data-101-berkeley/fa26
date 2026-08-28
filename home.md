@@ -15,7 +15,7 @@ seo:
 ## UC Berkeley, Fall 2026
 {: .mb-2 .fs-6 .text-grey-dk-000 }
 
-[Ed]({{site.course.edstem}}){:target="\_blank" .btn .btn-ed .mr-1 }
+[Ed](https://edstem.org/us/courses/{{site.ed_course_id}}/discussion){:target="\_blank" .btn .btn-ed .mr-1 }
 <!-- [Lecture Recordings]({{site.course.videos}}){:target="\_blank" .btn .btn-bcourses .mr-1 } -->
 <!-- [Gradescope]({{site.course.gradescope}}){:target="\_blank" .btn .btn-gradescope .mr-1 } -->
 <!-- [Lecture Recordings](https://bcourses.berkeley.edu/courses/1547305/external_tools/90481){:target="\_blank" .btn .btn-bcourses} -->
