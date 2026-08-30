@@ -13,6 +13,7 @@ course_department: dsus
 gradescope_course_id: 1370373
 bcourses_course_id: 1557891
 ed_course_id: 102212
+extensions_form: https://forms.gle/F2KBmwxUjG2ZUsR27
 semester: fa26
 logo: assets/images/data101.png
 class_archive_path: /
