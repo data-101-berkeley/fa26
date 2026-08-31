@@ -107,7 +107,7 @@ Everyone has **9** slip days, which can be applied to late submissions of _proje
 * _Please do not ask the staff to apply slip days to particular assignments, or track how many you have used._ If an assignment is open for submission it is _always_ in your interest to turn in your best effort.
 
 ### Additional Extensions
-We recognize that life can be unexpected. If you encounter the need for additional extensions at any time in the semester, please don't hesitate to let us know. The sooner we are made aware, the more options we have available to us to help you.
+We recognize that life can be unexpected. If you encounter the need for additional extensions or would like to request a support meeting with course staff at any time in the semester, please don't hesitate to let us know. The sooner we are made aware, the more options we have available to us to help you.
 
 The [Additional Extensions form]({{site.extensions_form}}){:target="\_blank"} is for addressing any circumstances that cannot be resolved via the slip day policy above. This form is designed to lower the barrier to reaching out to us, as well as build your independence in managing your academic career long-term. Within one business day of filling out the form, a course staff will reach out to you and, as needed, provide a space for conversation and arrange course accommodations as necessary. When making extension requests:
 * Send requests before the assignment deadline
