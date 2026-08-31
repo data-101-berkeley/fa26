@@ -13,7 +13,7 @@ course_department: dsus
 gradescope_course_id: 1370373
 bcourses_course_id: 1557891
 ed_course_id: 102212
-extensions_form: https://forms.gle/F2KBmwxUjG2ZUsR27
+extensions_form: https://flextensions.berkeley.edu/
 semester: fa26
 logo: assets/images/data101.png
 class_archive_path: /
@@ -22,7 +22,6 @@ class_archive_path: /
 aux_links:
   Course Notes: https://data101.org/notes
   DataHub: https://data101.datahub.berkeley.edu
-  # Additional Extensions: "https://docs.google.com/forms/d/e/1FAIpQLSeWYakKx_K7wFvlpzDAEeYxqFrWWnNwh4L1cI-oxsYoEMoUyw/viewform?usp=dialog"
 
 # nav external links show up in left hand navigation
 nav_external_links:
