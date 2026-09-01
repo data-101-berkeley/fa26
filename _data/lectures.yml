@@ -23,14 +23,10 @@ lectures:
     # readings: 
     #   - title: Causality and Experiments
     #     link: https://inferentialthinking.com/chapters/02/causality-and-experiments/index.html
-  - slug: sql
-    # readings:
-    #   - links: 
-    #       - text: "Programming in Python"
-    #         url: "https://inferentialthinking.com/chapters/03/programming-in-python/"
-    #       - text: "Data Types"
-    #         url: "https://inferentialthinking.com/chapters/04/data-types/"
-  - slug: relational-model
+  - title: "<b>No Lecture</b> — SQL Review (Makeup in Week 3, TBD)"
+    nonumber: true
+  - title: "<b>No Lecture</b> — Relational Model & Algebra (Makeup in Week 3, TBD)"
+    nonumber: true
   - slug: CTEs-views-subqueries
   - slug: DML-DDL
   - slug: performance-index-selection
