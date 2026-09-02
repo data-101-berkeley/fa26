@@ -30,7 +30,7 @@ The [PostgresSQL documentation](https://www.postgresql.org/docs/current/index.ht
 Other resources from [Data 100](https://ds100.org/), which are intended for SQLite:
 
 - We've assembled some [SQL Review Slides][sql_review] to help you brush up on SQL.
-- We've also compiled a list of SQL practice problems, which can be found [here](assets/other/sqlReview.pdf), along with their [solutions](assets/other/sqlReviewSol.pdf).
+- We've also compiled a list of SQL practice problems, which can be found [here]({{ site.baseurl }}/assets/other/sqlReview.pdf), along with their [solutions]({{ site.baseurl }}/assets/other/sqlReviewSol.pdf).
 - This [SQL Cheat Sheet](https://websitesetup.org/sql-cheat-sheet/) is an awesome resource that was created by Luke Harrison, a former Data 100 student.
 
 <!-- TODO: Copy the DS100 slides to a Data 101 folder... -->
