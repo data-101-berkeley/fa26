@@ -81,6 +81,8 @@ Office Hours are a great place to get help from course staff and to find study p
 * **TA/Tutor office hours**, held weekly in **Gateway B1040H**. Attend to get help with homework assignments, projects, or any other content-related questions.
 * **Instructor office hours**, held weekly in **Aditya’s office in Gateway** are for content-related questions, but also general course questions, data science advising, perspectives on academia/industry, or anything else you may be curious about! These are not intended for homework or project questions. 
 
+Office hours are **first come, first served** this semester—there is no online queue. Just drop by during any of the scheduled times and course staff will help you as soon as they are free.
+
 ## Grading
 Letter grades for the course will be based on your overall score in the class. 
 Here is the grading scheme:
