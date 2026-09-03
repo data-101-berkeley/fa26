@@ -18,6 +18,9 @@
 discussions:
   - skip: true # 8/28, first week of instruction
   - title: SQL Review # 9/3-4
+    # Data files are not Liquid-processed, so site.baseurl cannot be
+    # interpolated here; the baseurl has to be written out in full.
+    link: /fa26/assets/discussions/dis01.pdf
   - title: Relational Algebra, Subqueries, CTEs, Joins # 9/10-11
   - title: DML/DDL, Bits, Query Performance # 9/17-18
   - title: Query Performance # 9/24-25
