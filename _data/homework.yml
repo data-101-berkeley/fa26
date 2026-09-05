@@ -17,7 +17,10 @@
 homework:
   - title: Homework 1 (due 9/16)
     date: 2026-09-04
-    # link: 
+    # Bare assignment URL, no /outline/edit suffix: that suffix is the staff
+    # editing view. Gradescope routes this URL by role, so students land on
+    # their submission page.
+    link: https://www.gradescope.com/courses/1370373/assignments/8484086
   - title: Homework 2 (due 9/30)
     date: 2026-09-18
   - title: Homework 3 (due 10/21)
