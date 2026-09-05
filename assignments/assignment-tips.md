@@ -13,7 +13,7 @@ markdown: kramdown
 <!-- TODO: The Ed URL should be a site variable. -->
 [pg_current]: https://www.postgresql.org/docs/current/index.html
 [pg_v14]: https://www.postgresql.org/docs/14/index.html
-[jupysql_docs]: https://jupysql.ploomber.io/en/latest/
+[jupysql_docs]: https://jupysql.readthedocs.io/en/latest/quick-start.html
 [psql_docs]: https://www.postgresql.org/docs/14/app-psql.html
 [ed_url]: https://edstem.org/us/courses/43068/discussion/
 
@@ -154,7 +154,7 @@ l.349 ...r materialized view is much smaller\faster
 
 Before getting started, read about line magic (``%``) and cell magic (``%%``) [on TutorialsPoint](https://www.tutorialspoint.com/jupyter/ipython_magic_commands.htm){: target="\_blank"}. These commands will be used extensively in this project and future projects to aid us in running SQL queries.
 
-In Jupyter Notebooks, a [cell 'magic' command](https://ipython.readthedocs.io/en/stable/interactive/magics.html) is a special command that is preceded by two percentage signs (%%). Cell magics operate on entire cells and are used to change the behavior of the entire cell. They are not part of the Python language itself but are specific to the Jupyter environment. They help us do a lot of cool things, like run SQL commands directly within Jupyter! For some questions with cell magic, we will be saving the literal query string with [query snippets](https://jupysql.ploomber.io/en/latest/api/magic-snippets.html) using `--save`, as illustrated below:
+In Jupyter Notebooks, a [cell 'magic' command](https://ipython.readthedocs.io/en/stable/interactive/magics.html) is a special command that is preceded by two percentage signs (%%). Cell magics operate on entire cells and are used to change the behavior of the entire cell. They are not part of the Python language itself but are specific to the Jupyter environment. They help us do a lot of cool things, like run SQL commands directly within Jupyter! For some questions with cell magic, we will be saving the literal query string with [query snippets](https://jupysql.readthedocs.io/en/latest/api/magic-snippets.html) using `--save`, as illustrated below:
 
 ```
 %%sql --save query_result <<
@@ -184,7 +184,7 @@ FROM table ...
 ```
 
 <!--
-For some questions with multi-line cell magic, we will also be saving the literal query string with [query snippets](https://jupysql.ploomber.io/en/latest/api/magic-snippets.html) using `--save`:
+For some questions with multi-line cell magic, we will also be saving the literal query string with [query snippets](https://jupysql.readthedocs.io/en/latest/api/magic-snippets.html) using `--save`:
 
 ``%%sql --save query result << select * FROM table ...``
 -->
