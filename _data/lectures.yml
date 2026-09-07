@@ -23,13 +23,14 @@ lectures:
     # readings: 
     #   - title: Causality and Experiments
     #     link: https://inferentialthinking.com/chapters/02/causality-and-experiments/index.html
-  - title: "<b>No Lecture</b> — SQL Review (Makeup in Week 3, TBD)"
+  - title: "<b>No Lecture - Aditya at VLDB</b> — SQL Review (Makeup Tue 9/8)"
     nonumber: true
-  - title: "<b>No Lecture</b> — Relational Model & Algebra (Makeup in Week 3, TBD)"
+  - title: "<b>No Lecture - Aditya at VLDB</b> — Relational Model & Algebra (Makeup Thu 9/10)"
     nonumber: true
-  - slug: CTEs-views-subqueries
-  - slug: DML-DDL
+  - slug: sql
+  - slug: relational-model
   - slug: performance-index-selection
+    set_number: 6
   - slug: optimizing-1
   - slug: optimizing-2
   - slug: data-modeling-1

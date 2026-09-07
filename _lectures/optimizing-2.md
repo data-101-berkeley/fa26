@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-09-22
 title: Optimizing for Performance II
 files: 
     # slides: https://docs.google.com/presentation/d/1KauV94R0_ZDOQ0rTxOsQ8LoYE7q1vaTO1E0j7aW2uJQ/edit?usp=sharing

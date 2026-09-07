@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-09-11
 title: CTEs, Views, Subqueries
 # files:
 #     slides: https://docs.google.com/presentation/d/1srmBEDChKVj7HyA-v8EP5Uvjkp8DQL695mBWFTRdsaw/edit?slide=id.g329619ebe31_4_154#slide=id.g329619ebe31_4_154

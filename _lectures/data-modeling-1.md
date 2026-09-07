@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-09-24
 title: "Data Modeling I: Relations, Tensors, Dataframes"
 # files:
 #     slides: https://docs.google.com/presentation/d/1vcehrtMJkw01Q6bziDLlqrtypGf2_Q1iYkKg9gOI2i8/edit?slide=id.g3834b502f82_0_114#slide=id.g3834b502f82_0_114

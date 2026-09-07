@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-09-15
 title: Performance and Index Selection
 # files:
 #     slides: https://docs.google.com/presentation/d/1eXH9RdbcTiMEV7XUOM3Xudia69mL8gBD-MDZQJPfZ94/edit?usp=sharing

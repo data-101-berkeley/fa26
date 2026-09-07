@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-09-11
 title: DML, DDL, Referential Integrity, Constraints
 # files:
 #     slides: https://docs.google.com/presentation/d/1MHz9ppfpAhEO8CQHap2RPgCSuCimBsXq490gkTOtQa8/edit

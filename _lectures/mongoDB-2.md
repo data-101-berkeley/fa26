@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-10-22
 title: MongoDB II
 # files:
 #     slides: https://docs.google.com/presentation/d/1IKC6VRPiaoePz_6_tx15IGG6GSbejHfuovMi1pduF28/edit?usp=sharing 

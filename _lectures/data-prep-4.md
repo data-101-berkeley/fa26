@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-10-08
 title: "Data Preparation IV: Entity Resolution "
 # files:
 #     slides: https://docs.google.com/presentation/d/1JCctwS24Pv3wDn77DwgLglKiW7aJdNbrDTiw2ZGKRjI/edit?usp=sharing

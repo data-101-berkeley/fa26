@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-10-01
 title: "Data Preparation II: Numerical, Granularity, Windows"
 # files:
 #     slides: https://docs.google.com/presentation/d/1shMhNxr6LkhL0LX5ec1Nr5rFKPcJzNpzwzusTtIgg-I/edit?usp=sharing

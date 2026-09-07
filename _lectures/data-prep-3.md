@@ -1,6 +1,7 @@
 ---
 layout: lecture
 published: true
+date: 2026-10-06
 title: "Data Preparation III: Outliers"
 # files:
 #     slides: https://docs.google.com/presentation/d/1GQFR6eWn-xWeeGZHx9SH871C-WehGtBYB7pv-PLN1N4/edit?usp=sharing
