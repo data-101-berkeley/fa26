@@ -22,7 +22,7 @@ seo:
 <!-- [Additional Extensions]({{site.extensions_form}}){:target="\_blank" .btn .btn-extensions .mr-1 } -->
 <!-- Not using the OH queue in fa26; office hours are first come, first served. Uncomment to bring the queue back. -->
 <!-- [Office Hours Queue]({{site.course.office_hours}}){: .btn .btn-officehours} -->
-[Jump to Current Week](https://data101.org/fa25/#week-1){: .btn .btn-currweek}
+[Jump to Current Week](#week-1){: .btn .btn-currweek #jump-to-current-week }
 
 <div class="role flex">
   {% assign instructors = site.staffers | where: 'role', 'InstructorHome' %}
@@ -40,3 +40,5 @@ seo:
 <div>
 {%- include schedule.html -%}
 </div>
+
+<script src="{{ 'assets/scripts/current-week.js' | relative_url }}"></script>

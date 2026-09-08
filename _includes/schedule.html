@@ -81,7 +81,21 @@
   {%- assign week_index = forloop.index0 -%}
   {%- assign week_info = site.data.weeks.weeks[week_index] -%}
 
-  <h2 id="week-{{ week_number }}" class="week-label">
+  {%- comment -%}
+    Emit each week's Sunday-Saturday span so the "Jump to Current Week" button
+    can resolve the right week in the browser (see assets/scripts/current-week.js).
+    The first *displayed* day of a week is not necessarily its Sunday -- only
+    class/discussion/homework days appear -- so back up by its day-of-week to
+    get the real week boundaries. 86400 = one day, 518400 = six days.
+  {%- endcomment -%}
+  {%- assign wk_first = week.items | first -%}
+  {%- assign wk_offset = wk_first | date: '%w' | plus: 0 | times: 86400 -%}
+  {%- assign wk_start = wk_first | minus: wk_offset -%}
+  {%- assign wk_end = wk_start | plus: 518400 -%}
+
+  <h2 id="week-{{ week_number }}" class="week-label"
+      data-week-start="{{ wk_start | date: '%Y-%m-%d' }}"
+      data-week-end="{{ wk_end | date: '%Y-%m-%d' }}">
     Week {{ week_number }}
     {%- if week_info.title and week_info.skip != true -%}
       : {{ week_info.title }}
