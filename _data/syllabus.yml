@@ -11,7 +11,7 @@ end_date: 2026-12-18
 # like exams or bonus lectures) can be listed here. These appear in the second column.
 extra_days_col2:
   - date: 2026-09-11
-    title: '<strong class="label label-lecture">Lecture 4</strong> <a href="/fa26/lectures/CTEs-views-subqueries/">CTEs, Views, Subqueries</a><br/><strong class="label label-lecture">Lecture 5</strong> <a href="/fa26/lectures/DML-DDL/">DML, DDL, Referential Integrity, Constraints</a><br/><em>(Special Makeup Lecture, TBD)</em>'
+    title: '<strong class="label label-lecture">Lecture 4</strong> <a href="/fa26/lectures/CTEs-views-subqueries/">CTEs, Views, Subqueries</a><br/><strong class="label label-lecture">Lecture 5</strong> <a href="/fa26/lectures/DML-DDL/">DML, DDL, Referential Integrity, Constraints</a><br/><em>(Special Makeup Lecture, 12-2:30pm in Gateway 1210 &mdash; note the different location)</em>'
     label: none
   - date: 2026-10-02
     title: "<b>Midterm I, 7-9pm</b>"
