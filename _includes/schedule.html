@@ -288,12 +288,14 @@
                             {%- endif -%}
 
                             {%- comment -%}
-                              5. RENDER SOLUTIONS on its own line under the worksheet.
+                              5. RENDER SOLUTIONS inline after the worksheet, matching the
+                              "Exam (Solutions)" style used in the resources page table.
                               Optional: set `solutions` on the entry in _data/discussions.yml
-                              once solutions are ready to publish.
+                              once solutions are ready to publish. The leading space lives
+                              inside the span because Liquid strips whitespace around tags.
                             {%- endcomment -%}
                             {%- if disc_entry.solutions -%}
-                                <br/><a href="{{ disc_entry.solutions }}">Solutions</a>
+                                <span> (<a href="{{ disc_entry.solutions }}">Solutions</a>)</span>
                             {%- endif -%}
                         </div>
                     {%- endunless -%}
