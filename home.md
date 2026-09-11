@@ -31,9 +31,12 @@ seo:
   {% endfor %}
 </div>
 
-## Announcements
-
-{% include announcement-navigation.html %}
+<!-- Announcements live on Ed, so the homepage feed is switched off. To bring
+     it back, restore an "## Announcements" heading followed by an include of
+     announcement-navigation.html (the include and the _announcements
+     collection are both still in the repo). Wrap it in a Liquid comment rather
+     than an HTML one if you ever want it disabled again: Liquid is evaluated
+     first, so an HTML comment would still pull the component in. -->
 
 ## Schedule
 
