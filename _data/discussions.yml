@@ -23,6 +23,8 @@ discussions:
     link: /fa26/assets/discussions/dis01.pdf
     solutions: /fa26/assets/discussions/dis01_sol.pdf
   - title: Relational Algebra, Subqueries, CTEs, Joins # 9/10-11
+    link: /fa26/assets/discussions/dis02.pdf
+    # solutions: /fa26/assets/discussions/dis02_sol.pdf  # add once available
   - title: DML/DDL, Bits, Query Performance # 9/17-18
   - title: Query Performance # 9/24-25
   - title: <b>No Discussion - Midterm I</b> # 10/1-2
