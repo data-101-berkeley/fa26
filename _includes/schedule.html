@@ -286,10 +286,19 @@
                             {%- else -%}
                                 <span>{{ display_title }}</span>
                             {%- endif -%}
+
+                            {%- comment -%}
+                              5. RENDER SOLUTIONS on its own line under the worksheet.
+                              Optional: set `solutions` on the entry in _data/discussions.yml
+                              once solutions are ready to publish.
+                            {%- endcomment -%}
+                            {%- if disc_entry.solutions -%}
+                                <br/><a href="{{ disc_entry.solutions }}">Solutions</a>
+                            {%- endif -%}
                         </div>
                     {%- endunless -%}
 
-                    {%- comment -%} 5. ALWAYS INCREMENT INDEX {%- endcomment -%}
+                    {%- comment -%} 6. ALWAYS INCREMENT INDEX {%- endcomment -%}
                     {%- assign discussion_index = discussion_index | plus: 1 -%}
                 {%- endif -%}
             {%- endif -%}
