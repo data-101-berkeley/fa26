@@ -10,7 +10,7 @@ projects:
     label-number: 0
   - title: "Project 1 (due 9/23)"
     date: 2026-09-11
-    # link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
+    link: "https://data101.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-101-berkeley%2Ffa26-materials&branch=main&urlpath=lab%2Ftree%2Ffa26-materials%2Fproj%2Fproj1%2Fproj1.ipynb"
     label-number: 1
   - title: "Project 2 (due 10/7)"
     date: 2026-09-25
