@@ -288,14 +288,28 @@
                             {%- endif -%}
 
                             {%- comment -%}
-                              5. RENDER SOLUTIONS inline after the worksheet, matching the
-                              "Exam (Solutions)" style used in the resources page table.
-                              Optional: set `solutions` on the entry in _data/discussions.yml
-                              once solutions are ready to publish. The leading space lives
-                              inside the span because Liquid strips whitespace around tags.
+                              5. RENDER EXTRA MATERIALS inline after the worksheet, gathered
+                              into one parenthetical -- "Title (Notebook, Solutions)" -- the
+                              same style the resources page table uses for its exam rows.
+                              Both `notebook` and `solutions` are optional per entry in
+                              _data/discussions.yml; an entry with neither renders unchanged.
+                              The leading space sits inside the span because Liquid strips
+                              whitespace around its own tags.
                             {%- endcomment -%}
+                            {%- assign disc_extras = '' -%}
+                            {%- if disc_entry.notebook -%}
+                                {%- capture disc_nb -%}<a href="{{ disc_entry.notebook }}">Notebook</a>{%- endcapture -%}
+                                {%- assign disc_extras = disc_extras | append: disc_nb -%}
+                            {%- endif -%}
                             {%- if disc_entry.solutions -%}
-                                <span> (<a href="{{ disc_entry.solutions }}">Solutions</a>)</span>
+                                {%- if disc_extras != '' -%}
+                                    {%- assign disc_extras = disc_extras | append: ', ' -%}
+                                {%- endif -%}
+                                {%- capture disc_sol -%}<a href="{{ disc_entry.solutions }}">Solutions</a>{%- endcapture -%}
+                                {%- assign disc_extras = disc_extras | append: disc_sol -%}
+                            {%- endif -%}
+                            {%- if disc_extras != '' -%}
+                                <span> ({{ disc_extras }})</span>
                             {%- endif -%}
                         </div>
                     {%- endunless -%}

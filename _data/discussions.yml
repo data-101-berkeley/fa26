@@ -27,6 +27,7 @@ discussions:
     solutions: /fa26/assets/discussions/dis02_sol.pdf
   - title: DML/DDL, Bits, Query Performance # 9/17-18
     link: /fa26/assets/discussions/dis03.pdf
+    notebook: /fa26/assets/discussions/disc03.ipynb
     # solutions: /fa26/assets/discussions/dis03_sol.pdf  # add when releasing
   - title: Query Performance # 9/24-25
   - title: <b>No Discussion - Midterm I</b> # 10/1-2
