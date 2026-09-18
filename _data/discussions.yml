@@ -27,11 +27,10 @@ discussions:
     solutions: /fa26/assets/discussions/dis02_sol.pdf
   - title: DML/DDL, Bits, Query Performance # 9/17-18
     link: /fa26/assets/discussions/dis03.pdf
-    # The notebook cannot be hosted in this repo: the jekyll-jupyter-notebook
-    # plugin picks up any .ipynb in the source tree and fails the build. Point
-    # `notebook` at a DataHub git-pull URL once disc03.ipynb is in the
-    # fa26-materials repo, the same way the projects are linked.
-    # notebook: https://data101.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-101-berkeley%2Ffa26-materials&branch=main&urlpath=lab%2Ftree%2Ffa26-materials%2Fdisc%2Fdisc03.ipynb
+    # Notebooks are served from the fa26-materials repo via DataHub git-pull,
+    # not hosted here: the jekyll-jupyter-notebook plugin picks up any .ipynb
+    # in this source tree and fails the build.
+    notebook: "https://data101.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-101-berkeley%2Ffa26-materials&branch=main&urlpath=lab%2Ftree%2Ffa26-materials%2Fdisc%2Fdisc03%2Fdisc03.ipynb"
     # solutions: /fa26/assets/discussions/dis03_sol.pdf  # add when releasing
   - title: Query Performance # 9/24-25
   - title: <b>No Discussion - Midterm I</b> # 10/1-2
