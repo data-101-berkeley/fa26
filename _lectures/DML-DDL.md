@@ -6,4 +6,11 @@ title: DML, DDL, Referential Integrity, Constraints
 files:
     slides: https://docs.google.com/presentation/d/1Xq4QEaePHolztUuHQAh1rz8FosTp1L9OrRMDRrMS7c8/edit?usp=sharing
     code: https://data101.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-101-berkeley%2Ffa26-materials&branch=main&urlpath=lab%2Ftree%2Ffa26-materials%2Flec%2Fupdates%2Fupdates.ipynb
+    course_notes:
+        - name: "DML—Data Manipulation Language"
+          link: https://data101.org/notes/sql/dml
+        - name: "DDL–Data Definition Language"
+          link: https://data101.org/notes/sql/ddl
+        - name: "Keys & Constraints"
+          link: https://data101.org/notes/sql/keys-constraints
 ---
