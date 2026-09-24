@@ -68,6 +68,17 @@ nav_exclude: true
       {% if page.files.jupyter_notebook %}
       <li><a href="{{ page.files.jupyter_notebook }}" target="_blank">Jupyter Notebook</a></li>
       {% endif %}
+      {% if page.files.course_notes %}
+      <li>Relevant Course Notes
+        <ul>
+          {% for note in page.files.course_notes %}
+            {% if note.name and note.link %}
+            <li><a href="{{ note.link }}" target="_blank">{{ note.name }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+      {% endif %}
       {% if page.files.additional_files %}
         {% for item in page.files.additional_files %}
           {% if item.name and item.link %}
