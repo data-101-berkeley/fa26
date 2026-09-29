@@ -55,11 +55,11 @@ There are two 80-minute lectures per week, **{{page.lec_info}}**. You can attend
 
 ### Discussion
 
-This course also includes one weekly 50-minute discussion section held on Thursday/Friday. This section will help you synthesize materials via worksheets and activities and is good practice for exams. Handouts wil be posted on the class [Schedule][schedule]. Section attendance is not required, but you are strongly encouraged to practice the material on your own time. Discussion begins with the first week of classes.
+This course also includes one weekly 50-minute discussion section held on Friday. This section will help you synthesize materials via worksheets and activities and is good practice for exams. Handouts will be posted on the class [Schedule][schedule]. Section attendance is not required, but you are strongly encouraged to practice the material on your own time. Discussion begins in the second week of classes.
 
 ### Projects
 
-There will be five (5) programming assignments released throughout the semester (see the [schedule][schedule]). Generally, you will have one to two weeks to complete each project. Projects are graded on accuracy and are almost equally weighted, with the exception of Project 0 (weighted half of the other projects). Project deadlines are generally **Wednesday 5pm**.
+There will be five (5) programming assignments released throughout the semester (see the [schedule][schedule]). Generally, you will have one to two weeks to complete each project. Projects are graded on accuracy and are almost equally weighted, with the exception of Project 0 (worth 3%, against 8% for each of the others). Project deadlines are generally **Wednesday 5pm**.
 
 ### Homework Assignments
 
@@ -91,7 +91,7 @@ Here is the grading scheme:
 | **Component** | **Weight<br/>(default)** | **Details** |
 | --------- |:---:|--- |
 | Projects | 35% |  (8% each typically) No drops; Project 0 worth 3%. see [Late Policy](#late-policy) |
-| Homework Assignments | 15% |  (3% each) 1 drop drops; see [Late Policy](#late-policy) |
+| Homework Assignments | 15% |  (3% each) No drops; see [Late Policy](#late-policy) |
 | Midterms (2x) | 25% | (12.5% each) **NOTE: this is the first offering with two midterms**      |
 | Final Exam | 25% | Final is cumulative. | 
 
