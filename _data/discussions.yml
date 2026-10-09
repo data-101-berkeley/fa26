@@ -41,7 +41,7 @@ discussions:
   - title: Data Models, Data Prep # 10/8-9
     link: /fa26/assets/discussions/dis05.pdf
     # notebook: <DataHub git-pull URL>   # add if a disc05 notebook ships
-    # solutions: /fa26/assets/discussions/dis05_sol.pdf  # add when releasing
+    solutions: /fa26/assets/discussions/dis05_sol.pdf
   - title: Window Functions, Data Granularity # 10/15-16
   - title: Entity Resolution, ER Diagrams, Normalization # 10/22-23
   - title: Semistructured Data, MongoDB # 10/29-30
