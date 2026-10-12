@@ -14,7 +14,9 @@ extra_days_col2:
     title: '<strong class="label label-lecture">Lecture 4</strong> <a href="/fa26/lectures/CTEs-views-subqueries/">CTEs, Views, Subqueries</a><br/><strong class="label label-lecture">Lecture 5</strong> <a href="/fa26/lectures/DML-DDL/">DML, DDL, Referential Integrity, Constraints</a><br/><em>(Special Makeup Lecture, 12-2:30pm in Gateway 1210 &mdash; note the different location)</em>'
     label: none
   - date: 2026-10-02
-    title: "<b>Midterm I, 7-9pm</b>"
+    # Data files are not Liquid-processed, so the baseurl is written out in
+    # full here, the same way the makeup-lecture entry above does it.
+    title: '<b>Midterm I, 7-9pm</b> &mdash; <a href="/fa26/assets/exams/fa26_midterm1.pdf">Exam</a> (<a href="/fa26/assets/exams/fa26_midterm1_sol.pdf">Solutions</a>)'
     label: exam
   - date: 2026-11-06
     title: "<b>Midterm II, 7-9pm</b>"
