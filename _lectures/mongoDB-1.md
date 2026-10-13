@@ -1,7 +1,7 @@
 ---
 layout: lecture
 published: true
-date: 2026-10-20
+date: 2026-10-22
 title: MongoDB I
 # files:
 #     slides: https://docs.google.com/presentation/d/1FyaReQisy4l6XUeD12LAtUO1k5wt3hQPCvNji3-M6PU/edit?usp=sharing
