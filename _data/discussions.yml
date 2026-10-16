@@ -43,6 +43,9 @@ discussions:
     # notebook: <DataHub git-pull URL>   # add if a disc05 notebook ships
     solutions: /fa26/assets/discussions/dis05_sol.pdf
   - title: Window Functions, Data Granularity # 10/15-16
+    link: /fa26/assets/discussions/dis06.pdf
+    # notebook: <DataHub git-pull URL>   # add if a disc06 notebook ships
+    # solutions: /fa26/assets/discussions/dis06_sol.pdf  # add when releasing
   - title: Entity Resolution, ER Diagrams, Normalization # 10/22-23
   - title: Semistructured Data, MongoDB # 10/29-30
   - title: <b>No Discussion - Midterm II</b> # 11/5-6
