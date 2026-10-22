@@ -39,7 +39,11 @@ lectures:
   - slug: data-prep-1
   - slug: data-prep-2
   - slug: data-prep-3
+  - slug: data-prep-3
+    title: "Data Preparation III: Outliers (cont'd)"
   - slug: data-prep-4
+  - title: <b>Class Canceled</b>
+    nonumber: true
   - slug: data-modeling-2
   - slug: semistructured-data
   - slug: mongoDB-1
@@ -50,12 +54,10 @@ lectures:
   - slug: transactions
   - slug: olap
   - slug: spreadsheets
-  - slug: graph-db
-  - slug: cloud-computing
   - title: <b>Holiday - No Lecture</b>
     nonumber: true
-  - slug: tba
-  - slug: tba
+  - slug: graph-db
+  - slug: cloud-computing
   - title: <b>RRR Week</b>
     nonumber: true
   - title: <b>RRR Week</b>

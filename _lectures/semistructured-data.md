@@ -1,7 +1,7 @@
 ---
 layout: lecture
 published: true
-date: 2026-10-20
+date: 2026-10-27
 title: "Semistructured Data"
 files:
     slides: 
