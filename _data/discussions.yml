@@ -47,6 +47,9 @@ discussions:
     notebook: "https://data101.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-101-berkeley%2Ffa26-materials&branch=main&urlpath=lab%2Ftree%2Ffa26-materials%2Fdisc%2Fdisc06%2Fdisc06.ipynb"
     solutions: /fa26/assets/discussions/dis06_sol.pdf
   - title: Entity Resolution, ER Diagrams, Normalization # 10/22-23
+    link: /fa26/assets/discussions/dis07.pdf
+    # notebook: <DataHub git-pull URL>   # add if a disc07 notebook ships
+    # solutions: /fa26/assets/discussions/dis07_sol.pdf  # add when releasing
   - title: Semistructured Data, MongoDB # 10/29-30
   - title: <b>No Discussion - Midterm II</b> # 11/5-6
     nonumber: true
