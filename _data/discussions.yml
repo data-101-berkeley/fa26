@@ -51,6 +51,9 @@ discussions:
     # notebook: <DataHub git-pull URL>   # add if a disc07 notebook ships
     solutions: /fa26/assets/discussions/dis07_sol.pdf
   - title: Semistructured Data, MongoDB # 10/29-30
+    link: /fa26/assets/discussions/dis08.pdf
+    # notebook: <DataHub git-pull URL>   # add if a disc08 notebook ships
+    # solutions: /fa26/assets/discussions/dis08_sol.pdf  # add when releasing
   - title: <b>No Discussion - Midterm II</b> # 11/5-6
     nonumber: true
   - title: Sampling, MapReduce # 11/12-13
