@@ -69,7 +69,7 @@ The best way to get a sense for what is needed for our written exam is to attend
 
 ## Wellness Resources
 
-Your well-being matters, and we hope that Data 100 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful.
+Your well-being matters, and we hope that Data 101 is _never_ a barrier to taking care of your mental and physical health. Below are some campus resources that may be helpful.
 
 ### COVID-19 Resources and Support
 {:.no_toc}
