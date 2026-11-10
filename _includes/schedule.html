@@ -133,6 +133,8 @@
             {%- assign day_of_week = day | date: '%w' -%}
             {%- comment -%} --- LECTURE LOGIC (Tues/Thurs) --- {%- endcomment -%}
             {%- if site.data.syllabus.class_days contains day_of_week -%}
+                {%- comment -%} Loop so that consecutive entries flagged same_day render on this day {%- endcomment -%}
+                {%- for same_day_slot in (1..4) -%}
                 {%- assign lec_entry = site.data.lectures.lectures[lecture_index] -%}
                 
                 {%- if lec_entry -%}
@@ -189,7 +191,16 @@
 
                     {%- comment -%} 5. ALWAYS INCREMENT INDEX TO MOVE TO NEXT YAML ENTRY {%- endcomment -%}
                     {%- assign lecture_index = lecture_index | plus: 1 -%}
+
+                    {%- comment -%} 6. STOP UNLESS THE NEXT ENTRY ALSO BELONGS TO THIS DAY {%- endcomment -%}
+                    {%- assign next_lec_entry = site.data.lectures.lectures[lecture_index] -%}
+                    {%- unless next_lec_entry.same_day -%}
+                        {%- break -%}
+                    {%- endunless -%}
+                {%- else -%}
+                    {%- break -%}
                 {%- endif -%}
+                {%- endfor -%}
             {%- endif -%}
 
             {%- comment -%} --- QUIZ LOGIC --- {%- endcomment -%}

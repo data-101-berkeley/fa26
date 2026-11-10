@@ -9,6 +9,8 @@
 
 # nonumber supresses the label and numbering for the lecture entry
 # skip: true will omit the lecture from the schedule entirely
+# same_day: true renders the entry on the same class day as the entry before it
+# (e.g. two lectures given back to back); it is still numbered normally
 
 # link overrides the default link to the lecture page from the collection if 
 # you provided a slug or provides an external link
@@ -48,9 +50,12 @@ lectures:
   - slug: semistructured-data
   - slug: mongoDB-1
   - slug: mongoDB-2
+  - title: <b>Class Canceled</b>
+    nonumber: true
   - slug: sampling
   - slug: parallel-dist-computing
   - slug: data-ops
+    same_day: true
   - slug: transactions
   - slug: olap
   - slug: spreadsheets
