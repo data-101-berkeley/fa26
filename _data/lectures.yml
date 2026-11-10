@@ -53,6 +53,8 @@ lectures:
   - title: <b>Class Canceled</b>
     nonumber: true
   - slug: sampling
+  - slug: mapReduce
+    same_day: true
   - slug: parallel-dist-computing
   - slug: data-ops
     same_day: true

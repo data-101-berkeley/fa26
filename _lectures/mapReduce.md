@@ -1,7 +1,8 @@
 ---
 layout: lecture
 published: true
+date: 2026-11-10
 title: MapReduce
-# files:
-#     slides: https://docs.google.com/presentation/d/1BT0PATpnbzlA-1MrcF9eGRkct9_c_rN1JLH5iagDixo/edit?slide=id.g34e94b0f529_0_0#slide=id.g34e94b0f529_0_0
+files:
+    slides: https://docs.google.com/presentation/d/1sVKDRR960zC2HFSnndPAx3f4wLWxosisUSYeSPiab5Y/edit
 ---
