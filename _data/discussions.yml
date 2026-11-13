@@ -58,6 +58,7 @@ discussions:
     nonumber: true
   - title: Sampling, MapReduce # 11/12-13
     link: /fa26/assets/discussions/dis09.pdf
+    solutions: /fa26/assets/discussions/dis09_sol.pdf
   - title: Parallel Processing, Data Ops # 11/19-20
   - title: <b>No Discussion - Thanksgiving Break</b> # 11/26-27
     nonumber: true
