@@ -60,10 +60,13 @@ lectures:
   - slug: transactions
     same_day: true
   - slug: olap
-  - slug: spreadsheets
+  - title: <b>Class Canceled</b>
+    nonumber: true
   - title: <b>Holiday - No Lecture</b>
     nonumber: true
+  - slug: spreadsheets
   - slug: graph-db
+    same_day: true
   - slug: cloud-computing
   - title: <b>RRR Week</b>
     nonumber: true
