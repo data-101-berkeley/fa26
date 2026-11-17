@@ -65,9 +65,9 @@ lectures:
   - title: <b>Holiday - No Lecture</b>
     nonumber: true
   - slug: spreadsheets
-  - slug: graph-db
-    same_day: true
+  # Lecture 27 (Graph Databases) is a Wed Dec 2 makeup, listed in syllabus.yml extra_days_col2
   - slug: cloud-computing
+    set_number: 28
   - title: <b>RRR Week</b>
     nonumber: true
   - title: <b>RRR Week</b>

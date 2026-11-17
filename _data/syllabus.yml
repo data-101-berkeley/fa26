@@ -21,6 +21,9 @@ extra_days_col2:
   - date: 2026-11-06
     title: "<b>Midterm II, 7-9pm</b>"
     label: exam
+  - date: 2026-12-02
+    title: '<strong class="label label-lecture">Lecture 27</strong> <a href="/fa26/lectures/graph-db/">Graph Databases</a><br/><em>(Tentative Makeup Lecture, 3-5pm)</em>'
+    label: none
   - date: 2026-12-18
     title: "<b>Final Exam, 8-11am</b>"
     label: exam
