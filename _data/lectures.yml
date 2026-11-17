@@ -57,8 +57,8 @@ lectures:
     same_day: true
   - slug: parallel-dist-computing
   - slug: data-ops
-    same_day: true
   - slug: transactions
+    same_day: true
   - slug: olap
   - slug: spreadsheets
   - title: <b>Holiday - No Lecture</b>
